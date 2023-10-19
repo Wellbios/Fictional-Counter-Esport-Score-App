@@ -1,0 +1,208 @@
+@font-face { 
+	font-family: "Cursed Timer ULiL Font"; 
+	src: url('CursedTimerUlil-Aznm.ttf'); 
+}
+
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: url(wallpaperuse.com-counter-strike-global-offensive-673901.jpg);
+    font-family: "Cursed Timer ULiL Font";
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 700px; 
+    margin-top: 385px; 
+    padding-right: 83px;
+    padding-left: 83px;
+    column-gap: 100px; 
+    border-radius: 20px;
+}
+
+.header3{
+    color: white;
+    font-size: 40px;
+    background: rgba(0, 0, 0, .8
+    ); 
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+    width: 300px;  
+    
+   
+}
+
+.scorecolumn{
+    display: flex; 
+    flex-direction: column; 
+    text-align: center; 
+    
+}
+
+#score1{
+    color: red; 
+    font-family: "Cursed Timer ULiL Font";
+    font-size: 90px;
+    padding-top: 50px;
+    padding-bottom: 30px;  
+    margin-top: 0px; 
+    border-radius: 5px; 
+    margin-bottom: 0px;
+    background: rgba(0, 0, 0, .85); 
+}
+
+#score1:hover{
+    transition: ease-in-out.4s; 
+    background: rgba(0, 0, 0, 1);
+}
+
+
+.score-adder{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center;
+    column-gap: 11px; 
+    margin-top: 28px;
+    margin-bottom: 25px;
+}
+
+.add{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    margin: 20px; 
+    border: 2px solid white; 
+    background: rgba(0, 0, 0, .6); 
+    font-size: 18px;
+    color: white; 
+    padding: 10px;
+    font-family: "Cursed Timer ULiL Font"; 
+}
+
+
+#score2{
+    color: red; 
+    font-family: "Cursed Timer ULiL Font";
+    font-size: 90px;
+    background: rgba(0, 0, 0, .85); 
+    padding-top: 50px;
+    padding-bottom: 30px;  
+    margin-top: 0px; 
+    border-radius: 5px; 
+    margin-bottom: 0px; 
+}
+
+#score2:hover{
+    transition: ease-in-out.4s; 
+    background: rgba(0, 0, 0, 1);
+}
+
+
+.reset-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+ 
+}
+
+.zero{
+    background: rgba(0, 0, 0, .0);
+    border: 0px; 
+}
+
+.re-img{
+    width: 48px;
+    padding: 16px 16px;  
+}
+
+
+
+.base-timer {
+  display: block; 
+  position: relative; 
+  width: 250px;
+  height: 250px;
+  margin-right: auto; 
+  margin-left: auto; 
+  
+}
+
+.base-timer__svg {
+  transform: scaleX(-1);
+}
+
+.base-timer__circle {
+  fill: white;
+  stroke: none;
+}
+
+.base-timer__path-elapsed {
+  stroke-width: 7px;
+  stroke: grey;
+}
+
+.base-timer__path-remaining {
+  stroke-width: 7px;
+  stroke-linecap: round;
+  transform: rotate(90deg);
+  transform-origin: center;
+  transition: 1s linear all;
+  fill-rule: nonzero;
+  stroke: currentColor;
+}
+
+.base-timer__path-remaining.green {
+  color: rgb(65, 184, 131);
+}
+
+.base-timer__path-remaining.orange {
+  color: orange;
+}
+
+.base-timer__path-remaining.red {
+  color: red;
+}
+
+.base-timer__label {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+  font-family: Cursed Timer ULiL Font; 
+}
+
+#Replay-section{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    margin-bottom: 44px; 
+    margin-top: 20px;
+}
+
+#replay-btn{
+    background-color: white; 
+    font-family: "Cursed Timer ULiL Font";
+    font-size: 28px; 
+    padding: 20px 20px; 
+    
+}
+
+#replay-btn:hover{
+    transition: 0.4s; 
+    background-color: #f6f6f6;
+    
+}
+
+
+
+
+
